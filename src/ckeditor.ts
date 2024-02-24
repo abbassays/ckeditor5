@@ -166,11 +166,36 @@ class Editor extends ClassicEditor {
     },
 	style: {
 		definitions: [
-			{
-				name: 'Hint',
-				element: 'p',
-				classes: [ 'hint' ]
-			}, 
+      {
+        name: "Pastel Yellow",
+        element: "p",
+        classes: ["pastel-yellow", "style-container"],
+      },
+      {
+        name: "Pastel Green",
+        element: "p",
+        classes: ["pastel-green", "style-container"],
+      },
+      {
+        name: "Pastel Pink",
+        element: "p",
+        classes: ["pastel-pink", "style-container"],
+      },
+      {
+        name: "Pastel Blue",
+        element: "p",
+        classes: ["pastel-blue", "style-container"],
+      },
+      {
+        name: "Pastel Orange",
+        element: "p",
+        classes: ["pastel-orange", "style-container"],
+      },
+      {
+        name: "Pastel Purple",
+        element: "p",
+        classes: ["pastel-purple", "style-container"],
+      },
 		]
 	}
   };
